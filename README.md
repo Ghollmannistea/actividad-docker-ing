@@ -8,15 +8,15 @@ Ejemplo de un proyecto HTML contenerizado con Docker.
 ## Cómo ejecutarlo
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/mi-proyecto-html.git
+   git clone https://github.com/Ghollmannistea/actividad-docker-ing.git
    ```
 2. Construye la imagen Docker:
    ```bash
-   docker build -t mi-proyecto-html .
+   docker build -t actividad-docker-ing .
    ```
 3. Ejecuta el contenedor:
    ```bash
-   docker run -d -p 8080:80 --name mi-contenedor mi-proyecto-html
+   docker run -d -p 8080:80 --name mi-contenedor actividad-docker-ing
    ```
 4. Abre tu navegador en [http://localhost:8080](http://localhost:8080).
 
@@ -31,5 +31,5 @@ Ejemplo de un proyecto HTML contenerizado con Docker.
   ```
 - Eliminar la imagen:
   ```bash
-  docker rmi mi-proyecto-html
+  docker rmi actividad-docker-ing
   ```
